@@ -3336,4 +3336,25 @@ input, select, textarea {
 			    opacity: 0.9; /* Slightly change appearance on hover */
 			}
 
+					#three {
+			    clear: both;
+			}
+
+					.container::after {
+			    content: "";
+			    display: table;
+			    clear: both;
+			}
+
+					.clickable-article {
+			    margin-bottom: 20px; /* or any appropriate value */
+			}
+			
+			#three {
+			    margin-top: 40px; /* or any appropriate value */
+			}
+
+
+
+
 	}
